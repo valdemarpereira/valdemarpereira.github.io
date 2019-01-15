@@ -66,23 +66,18 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java & JavaEE
         level: 98%
 
       - name: Javascript1 & jQuery1
         level: 98%
-
-      - name: Angular
+        
+    toolset:
+      - name: Python2 & Django2
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Javascript2 & jQuery2
+        level: 98%
         
 experiences:
     - role: Lead Developer
