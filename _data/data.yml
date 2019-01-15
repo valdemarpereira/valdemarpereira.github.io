@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -49,8 +49,7 @@ career-profile:
     summary: |
       Team Lead and Senior Software Engineer with over 12 years experience. 
       Currently working for an online gambling company leading a team responsible 
-      for the development, delivery and ongoing maintenance 
-      of multiple slots and casino game backends.
+      for the development, delivery and ongoing maintenance of multiple slots and casino game backends.
       
       Strong experience in designing and developing robust, scalable and high-performance server-side 
       applications using core Java.
@@ -70,7 +69,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Javascript1 & jQuery1
         level: 98%
 
       - name: Angular
