@@ -12,17 +12,30 @@
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for toolset in skills.toolset %}
+
+      <h3 class="section-skillgroup">{{ toolset.skillgroup }}</h3>
+
+
+      {% for skill in toolset.skill %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
 
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="{{ skill.level }}">
+              </div>
+            </div>
+    </div><!--//item-->
+      {% endfor %}
+
+      <!--
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>
+-->
 
-    </div><!--//item-->
     {% endfor %}
 
   </div>

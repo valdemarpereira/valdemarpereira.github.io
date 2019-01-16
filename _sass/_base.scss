@@ -166,13 +166,22 @@ p {
         margin-top: 0;
         margin-bottom: 20px;
     }
+    .section-skillgroup {
+        font-size: 20px;
+        font-weight: 500;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
     .section {
         margin-bottom: 60px;
     }
 
     .experiences-section, .educations-section {
         .item {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
+            margin-top: 15px;
         }
     }
     .upper-row {
@@ -186,6 +195,32 @@ p {
         margin-top: 0;
         margin-bottom: 0;
         font-weight: 500;
+    }
+    .technologies-title {
+        text-transform: uppercase;
+        color: $text-grey;
+        font-size: 12px;
+        margin-top: 2px;
+        margin-bottom: 0;
+        font-weight: 900;
+    }
+    .technologies {
+        color: $text-grey;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    .technologies-hr {
+        border: 0;
+        height: 1px;
+        background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+    }
+    .exp-hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        margin-top: 0;
+        margin-bottom: 2px;
     }
     .time {
         position: absolute;
@@ -244,6 +279,7 @@ p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
+        font-weight: 700;
     }
     .level-bar {
         height: 12px;
