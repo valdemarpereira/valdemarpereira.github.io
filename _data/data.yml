@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: valdemar.pereira@gmail.com
     phone: xxx xxx xxxx
-    website: blog.webjeda.com #do not add http://
+    website:  #do not add http://
     linkedin: valdemar
     github: valdemarpereira
     gitlab:
@@ -160,7 +160,7 @@ skills:
 
           skill:
             - name: Java1 & JavaEE1
-              level: 98%
+              level: 95%
 
             - name: Javascript1 & jQuery1
               level: 98%
