@@ -67,6 +67,7 @@ experiences:
     - role: Senior Software Enginner
       time: 2018 - Present
       company: Kindred Group, Online Gambling, London
+      location: London
       details: |
         Inserted into the DCS team - Digital Customer Support, my key responsibilities was to help the team to modernize
         the entire digital communication solution and make improvements on how Kindred communicates with its customers.
@@ -82,6 +83,7 @@ experiences:
     - role: Senior Software Engineer
       time: 2013 - 2018
       company: Gamesys, Online Gambling, London
+      location: London
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -95,6 +97,7 @@ experiences:
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
+      location: London
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
