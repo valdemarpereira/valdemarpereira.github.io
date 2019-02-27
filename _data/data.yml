@@ -23,6 +23,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    stackshare: valdemarpereira
 
     languages:
       - idiom: English
@@ -156,14 +157,63 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-        - skillgroup: xxx
-
+        - skillgroup: Languages
           skill:
-            - name: Java1 & JavaEE1
-              level: 95%
+            - name: Java & JavaEE
+              level: 100%
 
-            - name: Javascript1 & jQuery1
+            - name: SQL
+              level: 90%
+
+            - name: Python 3
+              level: 50%
+
+        - skillgroup: Frameworks
+          skill:
+              - name: Spring
+                level: 100%
+
+              - name:  Spring Boot 2.0
+                level: 100%
+
+              - name:  JUnit, Mockito, Hamcrest
+                level: 100%
+
+              - name:  Gatlink
+                level: 100%
+
+
+        - skillgroup: Software Engineering
+          skill:
+              - name: OO Design and Analysis
+                level: 98%
+
+              - name: SOLID Design Principles
+                level: 98%
+
+              - name: UML
+                level: 98%
+
+              - name: Design Patterns
+                level: 98%
+
+              - name: Agile Methodologies (Scrum)
+                level: 98%
+
+        - skillgroup: Enterprise Application Integration
+          skill:
+            - name: RESTful Services
               level: 98%
+
+            - name: Microservices (?)
+              level: 98%
+
+            - name: Apache Camel
+              level: 50%
+
+            - name: JMS
+              level: 98%
+
 
         - skillgroup: DevOps
           skill:
@@ -171,6 +221,15 @@ skills:
               level: 98%
 
             - name: Jenkins
+              level: 98%
+
+            - name: Docker
+              level: 98%
+
+            - name: K8s & EKS
+              level: 98%
+
+            - name: AWS
               level: 98%
 
 

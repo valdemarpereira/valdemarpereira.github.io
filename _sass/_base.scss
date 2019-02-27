@@ -198,7 +198,7 @@ p {
     }
     .technologies-title {
         text-transform: uppercase;
-        color: $text-grey;
+        color: #808080;
         font-size: 12px;
         margin-top: 2px;
         margin-bottom: 0;
@@ -218,7 +218,7 @@ p {
     .exp-hr {
         border: 0;
         height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: linear-gradient(to right, rgba(151, 170, 195, 0), rgba(151, 170, 195, 0.75), rgba(151, 170, 195, 0));
         margin-top: 0;
         margin-bottom: 2px;
     }

@@ -55,8 +55,14 @@
     </li>
     {% endif %}
 
+    {% if sidebar.stackshare %}
+    <li class="stackshare"><i class="fas fa-code"></i>
+      <a href="https://stackshare.io/{{ sidebar.stackshare }}" target="_blank">{{ sidebar.stackshare }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.codewars %}
-    <li class="codewars"><i class="fas fa-code"></i>
+    <li class="codewars"><i class="fas fa-stackshare"></i>
       <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
     </li>
     {% endif %}
