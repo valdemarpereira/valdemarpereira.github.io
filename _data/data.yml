@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Valdemar Pereira
-    tagline: Scrum Master & Software Engineer
+    tagline: Senior Software Engineer
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -20,17 +20,18 @@ sidebar:
     gitlab:
     bitbucket:
     twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 766150/valdemar
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     stackshare: valdemarpereira
 
     languages:
+      - idiom: Portuguese
+        level: Native
+
       - idiom: English
         level: Professional
 
-      - idiom: Portuguese
-        level: Native
 
       - idiom: Spanish
         level: Basic
@@ -42,32 +43,56 @@ sidebar:
       - item: Fitness
         link:
 
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Team Lead and Senior Software Engineer with over 12 years experience. 
-      Currently working for an online gambling company leading a team responsible 
-      for the development, delivery and ongoing maintenance of multiple slots and casino game backends.
-      
-      Strong experience in designing and developing robust, scalable and high-performance server-side 
-      applications using core Java.
+      A polyglot Senior Software Engineer with over 15 years experience, working for diverse markets as Automotive, Online Gambling and Health Care. 
 
-      I am proactive, highly motivated and interested in personal and professional development through continuous learning.
+      Currently working for BMW as a Team and Technical Lead, helping the team to design, implement, test and deploy solutions for autonomous driving car projects. Always focus on using the best practices in the market and a DevOps mindset, as Agile Methodologies, Continuous Integration and Deployment, Test Driven Design and Infrastructure as Code. 
+
+      Deep and broad understanding in designing and developing robust, scalable and high-performance microservices using core Java, Spring Boot and AWS.
+
+      I am proactive, highly motivated and interested in personal and professional development through continuous learning as well as coaching other engineers and building a strong team culture.
 
 education:
-    - degree: IT and Systems Engineering - 5 year degree course (Pre-bologna system)
+    - degree: IT and Systems Engineering 
       university: University of Minho, Portugal
       time: October 1999 – October 2006
      
         
 experiences:
     - role: Senior Software Enginner
-      time: 2018 - Present
-      company: Kindred Group, Online Gambling, London
-      location: London
+      time: August 2018 - Present
+      company: BMW & Critcal Tech Work, Automotive Industry
+      location: Porto, PT
+      details: |
+        - Team Lead and part of the autonomous driving car project.
+
+        - Responsible to design solutions and implement them, together with the team, using Java, Spring Framework and cloud technologies.
+
+        - Focus on agility and increased business value, with a strong emphasis in test automation. Responsible to automate end-to-end 
+        business processes and software processes, applying Continuous Integration and Delivery, Infrastructure as Code, 
+        automating whetever possible to speedup the time to market while avoiding errors.
+
+        - Modeling and best practices for a high available architecture in the cloud, using Multi Availability Zones 
+        and Multi Regions setup, with a active-active failover based on health metrics.
+        
+        - Technically coaching teams on Core Java, cloud technologies infrastructure automation to adopt a cloud native architecture, 
+        using Terraform and Packer in a CICD pipeline for a fully automated deployment.
+
+        - Coaching junior members from internal teams, helping them on adopting core tecnologies at BMW.
+
+      technologies: |
+        Java 8, Spring Framework (Core, Boot 2.0, Vault, JMS, Transaction), Microservices,
+        Fault Tolerance, RESTful Services and design, Message-driven architecture,
+        Unit Testing Frameworks (JUnit, Hamcrest, Mockito, rest-assured, FitNesse), Git, Maven,
+        Terraform, Docker, K8s, AWS (VPC, EC2, EKS, SQS, Secrets Manager, ECR)
+
+    - role: Senior Software Enginner
+      time: March 2018 - July 2018
+      company: Kindred Group, Online Gambling Industry
+      location: London, UK
       details: |
         Inserted into the DCS team - Digital Customer Support, my key responsibilities was to help the team to modernize
         the entire digital communication solution and make improvements on how Kindred communicates with its customers.
@@ -82,8 +107,8 @@ experiences:
 
     - role: Senior Software Engineer
       time: 2013 - 2018
-      company: Gamesys, Online Gambling, London
-      location: London
+      company: Gamesys, Online Gambling Industry
+      location: London, UK
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -94,67 +119,55 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      location: London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    
 
-          - Bullet point
-          - Bullet point
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
@@ -169,11 +182,11 @@ skills:
               level: 90%
 
             - name: Python 3
-              level: 50%
+              level: 40%
 
         - skillgroup: Frameworks
           skill:
-              - name: Spring
+              - name: Spring Core
                 level: 100%
 
               - name:  Spring Boot 2.0
@@ -183,39 +196,39 @@ skills:
                 level: 100%
 
               - name:  Gatlink
-                level: 100%
+                level: 50%
 
 
         - skillgroup: Software Engineering
           skill:
               - name: OO Design and Analysis
-                level: 98%
+                level: 100%
 
               - name: SOLID Design Principles
                 level: 98%
 
               - name: UML
-                level: 98%
+                level: 90%
 
               - name: Design Patterns
-                level: 98%
+                level: 90%
 
-              - name: Agile Methodologies (Scrum)
-                level: 98%
+              - name: Agile Methodologies
+                level: 90%
 
         - skillgroup: Enterprise Application Integration
           skill:
             - name: RESTful Services
-              level: 98%
+              level: 100%
 
             - name: Microservices (?)
-              level: 98%
+              level: 80%
 
-            - name: Apache Camel
-              level: 50%
+            - name: Fault Tolerance
+              level: 70%
 
             - name: JMS
-              level: 98%
+              level: 90%
 
 
         - skillgroup: DevOps
@@ -224,18 +237,18 @@ skills:
               level: 98%
 
             - name: Jenkins
-              level: 98%
+              level: 90%
 
             - name: Docker
-              level: 98%
+              level: 70%
 
             - name: K8s & EKS
-              level: 98%
+              level: 70%
 
             - name: AWS
-              level: 98%
+              level: 70%
 
 
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    "Without data you're just another person with an opinion" - W. Edwards Deming
