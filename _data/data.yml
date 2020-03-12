@@ -235,9 +235,9 @@ skills:
                 level: 100%
 
               - name: SOLID Design Principles
-                level: 98%
+                level: 100%
 
-              - name: UML
+              - name: Domain Driven Design
                 level: 90%
 
               - name: Design Patterns
@@ -251,20 +251,20 @@ skills:
             - name: RESTful Services
               level: 100%
 
-            - name: Microservices (?)
+            - name: Microservices Architecture
               level: 80%
 
-            - name: Fault Tolerance
+            - name: Fault Tolerance 
               level: 70%
 
-            - name: JMS
+            - name: JMS & PubSub+
               level: 90%
 
 
         - skillgroup: DevOps
           skill:
             - name: IaC - Terraform
-              level: 98%
+              level: 50%
 
             - name: Jenkins
               level: 90%
@@ -272,11 +272,11 @@ skills:
             - name: Docker
               level: 70%
 
-            - name: K8s & EKS
+            - name: K8s
               level: 70%
 
             - name: AWS
-              level: 70%
+              level: 50%
 
 
 
