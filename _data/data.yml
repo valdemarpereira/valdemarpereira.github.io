@@ -69,12 +69,12 @@ experiences:
       details: |
       
       
-        TBC!!!
+        TBC!!! TBC!!!
       
         keywords:
       
-        - Mention GAP analysis using C4
-        - Desiging and implementation microservices folowing a DDD approach
+        - GAP analysis using C4
+        - Designing and implementing microservices folowing a DDD approach
         - Monolitic decoupling
         - Mentoring and advising on new tools and frameworks. 
       
@@ -86,7 +86,7 @@ experiences:
         Mentoring, supporting and pushing the xxx to adere to the insdustry coding standrsds 
 
       technologies: |
-        Java 11, Spring Framework (Boot, Cloud, JDBC), 
+        Java 11, Spring Framework (Boot, Cloud, JDBC, State Machine), 
         Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design, Message-driven architecture, PubSub, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven
 
     - role: Senior Software Enginner
