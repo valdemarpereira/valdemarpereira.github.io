@@ -50,7 +50,7 @@ career-profile:
 
         Currently working for BMW as a Team and Technical Lead, helping to design, implement, test and deploy solutions for autonomous driving car projects. Always with a focus on using the best practices in development and with a DevOps mindset, as adopting Agile Methodologies, Continuous Integration and Deployment, Test Driven Design and Infrastructure as Code. 
 
-        Deep and broad understanding in designing and developing robust, scalable and high-performance microservices using core Java, Spring Boot and Cloud Computing Solutions (E.g. AWS).
+        Deep and broad understanding in designing and developing robust, scalable and high-performance microservices using core Java, Spring Boot and Cloud Computing Solutions.
 
         I am a very proactive type of person, highly motivated and interested in both personal and professional development through continuous learning as well as coaching other engineers and building a strong team culture.
 
@@ -59,12 +59,39 @@ education:
     - degree: IT and Systems Engineering 
       university: University of Minho, Portugal
       time: October 1999 – October 2006
-     
         
 experiences:
+
     - role: Senior Software Enginner
-      time: August 2018 - Present
-      company: BMW & Critcal Tech Work, Automotive Industry
+      time: June 2019 - March 2020
+      company: Kindred Group, Online Gambling Industry
+      location: London, UK
+      details: |
+      
+      
+      TBC!!!
+      
+      keywords:
+      
+      - Mention GAP analysis using C4
+      - Desiging and implementation microservices folowing a DDD approach
+      - Monolitic decoupling
+      - Mentoring and advising on new tools and frameworks. 
+      
+        Proposing, Designing and several microservices, following  a DDD aproach.
+        
+        
+        Decoupling a Monolitic 
+        
+        Mentoring, supporting and pushing the xxx to adere to the insdustry coding standrsds 
+
+      technologies: |
+        Java 11, Spring Framework (Boot, Cloud, JDBC), 
+        Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design, Message-driven architecture, PubSub, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven
+
+    - role: Senior Software Enginner
+      time: August 2018 - May 2019
+      company: BMW Group - Critical Tech Work, Automotive Industry
       location: Porto, PT
       details: |
         - Team Lead and part of the autonomous driving car project.
@@ -110,14 +137,17 @@ experiences:
       company: Gamesys, Online Gambling Industry
       location: London, UK
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        As a Team Lead:
+        - Effectively managing a team of five Java developers and one QA. Responsible for implementing team goals, individual objectives and proactively supporting the continuous development of team members by providing a clear and constructive feedback and creating opportunities for learning and growth.
+        - Part of the recruitment process and responsible for training, mentoring and integrating new team members.
+        - Accountable for the team's response to live issues, ensuring they are resolved quickly and effectively, with status updates regularly communicated to stakeholders.
+        As a Lead Java Developer:
+        - Design, implement and maintain several backend slots games and support existing old games. All the code is modular and well tested, following patterns and practices that exist across the wider Engineering community.
+        - Exposure to multi-thread code, mainly when supporting parallel execution of Standard Expectation Tests and several asynchronous tasks for calculating special prize payments among players.
+        - Supporting a new Slots Replay System capable of storing and playback all previous player's’ actions within a slot game. This is a fully asynchronous system based on JMS, Apache Camel and RESTful services.
+        - Oversee the technologies, tools and techniques used within the team and pushing them to adopt new frameworks and technologies. 
 
-          - Bullet point
-          - Bullet point
+
 
     
 
