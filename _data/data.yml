@@ -62,32 +62,29 @@ education:
         
 experiences:
 
-    - role: Senior Software Enginner
+    - role: Senior Software Enginner - Contract Position
       time: June 2019 - March 2020
       company: Kindred Group, Online Gambling Industry
       location: London, UK
       details: |
-      
-      
-        TBC!!! TBC!!!
-      
-        keywords:
-      
-        - GAP analysis using C4
-        - Designing and implementing microservices folowing a DDD approach
-        - Monolitic decoupling
-        - Mentoring and advising on new tools and frameworks. 
-      
-        Proposing, Designing and several microservices, following  a DDD aproach.
-        
-        
-        Decoupling a Monolitic 
-        
-        Mentoring, supporting and pushing the xxx to adere to the insdustry coding standrsds 
+
+        TBC TBC TBC!!!!
+
+        After previously working for Kindred, I was offered a contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.
+        The role was mostly decoupling a monolith application called Campaign System into microservices and work in new greenfield projects.
+        It included defining the architecture and defining the delivery process to ensure we deliver high-quality software on time.
+
+        - Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.
+        - Working closely with the architectures while identifying potential solutions for new business requests. All proposed architecture designs follow the C4 model, Domain-Driven Design
+          and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code. This allows us to build loose coupling, high cohesion and highly scalable microservices.
+
+        - Using Spring Cloud, PubSub+
+
+        - Mentoring and coaching, supporting team members and advising the team on new tools and frameworks. Some examples the use of Spring State Machine, Lombok vs AutoValue, AssertJ
 
       technologies: |
         Java 11, Spring Framework (Boot, Cloud, JDBC, State Machine), 
-        Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design, Message-driven architecture, PubSub, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven
+        Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design, Message-driven architecture, PubSub+, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven
 
     - role: Senior Software Enginner
       time: August 2018 - May 2019
@@ -100,18 +97,18 @@ experiences:
 
         - Focus on agility and increased business value, with a strong emphasis in test automation. Responsible to automate end-to-end 
         business processes and software processes, applying Continuous Integration and Delivery, Infrastructure as Code, 
-        automating whetever possible to speedup the time to market while avoiding errors.
+        automating whenever possible to speed up the time to market while avoiding errors.
 
-        - Modeling and best practices for a high available architecture in the cloud, using Multi Availability Zones 
-        and Multi Regions setup, with a active-active failover based on health metrics.
+        - Modelling and best practices for a highly available architecture in the cloud, using Multi-Availability Zones
+        and Multi Regions setup, with an active-active failover based on health metrics.
         
         - Technically coaching teams on Core Java, cloud technologies infrastructure automation to adopt a cloud native architecture, 
         using Terraform and Packer in a CICD pipeline for a fully automated deployment.
 
-        - Coaching junior members from internal teams, helping them on adopting core tecnologies at BMW.
+        - Coaching junior members from internal teams, helping them on adopting core technologies at BMW.
 
       technologies: |
-        Java 8, Spring Framework (Core, Boot 2.0, Vault, JMS, Transaction), Microservices,
+        Java 11, Spring Framework (Core, Boot 2.0, Vault, JMS, Transaction), Microservices,
         Fault Tolerance, RESTful Services and design, Message-driven architecture,
         Unit Testing Frameworks (JUnit, Hamcrest, Mockito, rest-assured, FitNesse), Git, Maven,
         Terraform, Docker, K8s, AWS (VPC, EC2, EKS, SQS, Secrets Manager, ECR)
@@ -127,29 +124,67 @@ experiences:
         refactoring key projects to use spring boot and support the company to be GDPR compliance.
 
       technologies: |
-        Java 6/8, Spring Framework (Boot, IOC, JDBC, Data, Transaction, JPA), Hibernate, Hazelcast,
+        Java 8, Spring Framework (Boot, IOC, JDBC, Data, Transaction, JPA), Hibernate, Hazelcast,
         Relational databases and SQL, RESTful Services and design, Message-driven architecture, Apache Camel,
         Unit Testing Frameworks (JUnit, Hamcrest, Mockito, rest-assured, FitNesse), Git, Maven
 
-
     - role: Senior Software Engineer
-      time: 2013 - 2018
+      time: December 2012 - March 2018
       company: Gamesys, Online Gambling Industry
       location: London, UK
       details: |
-        As a Team Lead:
+        <b>As a Team Lead:<b/>
         - Effectively managing a team of five Java developers and one QA. Responsible for implementing team goals, individual objectives and proactively supporting the continuous development of team members by providing a clear and constructive feedback and creating opportunities for learning and growth.
         - Part of the recruitment process and responsible for training, mentoring and integrating new team members.
         - Accountable for the team's response to live issues, ensuring they are resolved quickly and effectively, with status updates regularly communicated to stakeholders.
-        As a Lead Java Developer:
+
+        <b>As a Lead Java Developer:</b>
         - Design, implement and maintain several backend slots games and support existing old games. All the code is modular and well tested, following patterns and practices that exist across the wider Engineering community.
         - Exposure to multi-thread code, mainly when supporting parallel execution of Standard Expectation Tests and several asynchronous tasks for calculating special prize payments among players.
         - Supporting a new Slots Replay System capable of storing and playback all previous player's’ actions within a slot game. This is a fully asynchronous system based on JMS, Apache Camel and RESTful services.
         - Oversee the technologies, tools and techniques used within the team and pushing them to adopt new frameworks and technologies. 
 
+    - role: Senior Software Enginner
+      time: August 2009 - October 2012
+      company: ALERT Life Sciences, Healthcare Industry
+      location: Porto, PT
+      details: |
 
+        Working on many of the key projects to ensure the company satisfied their corporate milestones:
 
-    
+        <b>ALERT Care Mobile</b>
+        - Architectural Designer and Lead Developer of a complete mobile healthcare IT solution,  part of the Family Health System in the Brazilian market.
+
+        <b>Alert Job Scheduler</b>
+        - Architectural Designer and Lead Developer of a generic Job Scheduler Service. The service has the ability to create and schedule jobs that interact with remote services.
+        - Capable of running in High Availability Environments using Quartz Scheduler Engine, configured to run in a clustered environment.
+
+        <b>CRMServices - High Availability Environment</b>
+        - Lead Developer in the re-architecting of an application, able to schedule notifications to be send to customers (using several channels such as email, fax, SMS), enabling it to be executed in High Availability Environments.
+
+      technologies: |
+        Java, JMS, Spring Framework, Hibernate, Oracle Advance Queue, Tomcat, Quartz Scheduler Engine, JavaMail API, Jersey,  Tomcat, Android, JSON, SQLite, UML, Hibernate, XML
+
+    - role: Software Enginner
+      time: August 2008 - July 2009
+      company: CR2 - Channel Banking Software, Banking Systems
+      location: Dublin, IE
+      details: |
+        - Developed new features, maintained and refactored  the company’s ATM/Kiosk solutions.
+        - Architectural design and implementation of a new approach to the Transaction and Recovery platform.
+
+      technologies: |
+        .NET Framework 3.5, C++, C#, ADO.NET, WCF, Linq, XML, XSL, SQL, NUnit, AOP, Rhino Mocks, CVS
+
+    - role: Software Enginner
+      time: August 2008 - July 2009
+      company: Qimonda AG, Semi-conductor Industry
+      location: Porto, PT
+      details: |
+        - Developed  new features, refactored and maintained of a MES applications for Qimonda worldwide.
+
+      technologies: |
+        .NET Framework, NUnit, Rational Functional Tester, Visual Studio Extensibility, CMMI
 
 # projects:
 #     title: Projects
@@ -216,16 +251,16 @@ skills:
 
         - skillgroup: Frameworks
           skill:
-              - name: Spring Core
+              - name: Spring Framework
                 level: 100%
 
               - name:  Spring Boot 2.0
                 level: 100%
 
-              - name:  JUnit, Mockito, Hamcrest
+              - name:  JUnit, Mockito, Hamcrest, assertJ
                 level: 100%
 
-              - name:  Gatlink
+              - name:  Gatlink, Jmeter
                 level: 50%
 
 
@@ -234,14 +269,17 @@ skills:
               - name: OO Design and Analysis
                 level: 100%
 
-              - name: SOLID Design Principles
+              - name: Hexagonal Architecture
                 level: 100%
 
               - name: Domain Driven Design
-                level: 90%
+                level: 100%
 
               - name: Design Patterns
                 level: 90%
+
+              - name: SOLID Design Principles
+                level: 100%
 
               - name: Agile Methodologies
                 level: 90%
