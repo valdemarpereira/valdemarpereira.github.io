@@ -106,22 +106,21 @@ experiences:
           This allows us to build loose coupling, high cohesion and highly scalable microservices.
         - Mentoring, coaching and supporting team members. Advising the team on new tools and frameworks. A few examples of proposal tools such as Spring State Machine, Lombok vs AutoValue or AssertJ.
 
-        Main projects description:
+        Projects:
 
         - <b>Campaign Scheduler</b>
 
-          Microservice created during the breakdown of Campaign System to create a more robust and scalable approach o to schedule the Start and End of recurrent campaigns.
-          This is a Message-Driven microservice
+          Microservice created during the breakdown of Campaign System to create a more robust and scalable approach to schedule the Start and End dates of recurrent campaigns.
+          This is a Message-Driven microservice.
 
         - <b>Campaign Orchestrator</b>
 
-          A microservice created to support multiple microservices created as part of the breakdown. As the name indicates it the orchestrator between several microservices involved during the send out of
-          marketing campaign.
+          Orchestrator between several microservices involved during the send out of  marketing campaigns. Based on internal rules, it can decided the flow of a campaign send out.
 
         - <b>Operation Monitor Report</b>
 
           A new microservice used to gather reports of the health and status of a marketing campaign. It gathers data from several communication channels, errors, budget limits, etc,
-          and based on business rules can decide if a campaign must be suspended, stop. It is also used to send warning and offers reports on the current status of active campaigns.
+          and based on business rules it can decide if a campaign must be suspended, stop or sending warning. It is also used to send warning and offers reports on the current status of active campaigns.
 
 
       technologies: |

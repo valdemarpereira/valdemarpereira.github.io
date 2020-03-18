@@ -667,38 +667,37 @@ Strong focus on using the best industry practices in development with a Domain-D
 
     
     <div class="details">
-      <p>Contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.</p>
+      <p>Contract position in the Digital Marketing team to support and build new tools with the purpose of acquiring and retain online gambling users.</p>
 
-<p>My main role responsibilities were mostly decoupling a monolith application (Campaign System) into microservices and work in new greenfield projects to support new marketing campaigns:</p>
+<p>My main role responsibilities were mostly decoupling an existing monolith application (Campaign System) into microservices and working in greenfield projects to support new marketing campaigns:</p>
 
 <ul>
   <li>Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.</li>
   <li>Working closely with the architectures while identifying potential solutions for new business requests. All proposed architecture designs follow the C4 model, Domain-Driven Design
 and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code.
 This allows us to build loose coupling, high cohesion and highly scalable microservices.</li>
-  <li>Mentoring and coaching, supporting team members and advising the team on new tools and frameworks. Some examples the use of Spring State Machine, Lombok vs AutoValue, AssertJ</li>
+  <li>Mentoring, coaching and supporting team members. Advising the team on new tools and frameworks. A few examples of proposal tools such as Spring State Machine, Lombok vs AutoValue or AssertJ.</li>
 </ul>
 
-<p>Main projects description:</p>
+<p>Projects:</p>
 
 <ul>
   <li>
     <p><b>Campaign Scheduler</b></p>
 
-    <p>Microservice created during the breakdown of Campaign System to create a more robust and scalable approach o to schedule the Start and End of recurrent campaigns.
-This is a Message-Driven microservice</p>
+    <p>Microservice created during the breakdown of Campaign System to create a more robust and scalable approach to schedule the Start and End dates of recurrent campaigns.
+This is a Message-Driven microservice.</p>
   </li>
   <li>
     <p><b>Campaign Orchestrator</b></p>
 
-    <p>A microservice created to support multiple microservices created as part of the breakdown. As the name indicates it the orchestrator between several microservices involved during the send out of
-marketing campaign</p>
+    <p>Orchestrator between several microservices involved during the send out of  marketing campaigns. Based on internal rules, it can decided the flow of a campaign send out.</p>
   </li>
   <li>
     <p><b>Operation Monitor Report</b></p>
 
     <p>A new microservice used to gather reports of the health and status of a marketing campaign. It gathers data from several communication channels, errors, budget limits, etc,
-and based on business rules can decide if a campaign must be suspended, stop. It is also used to send warning and offers reports on the current status of active campaigns.</p>
+and based on business rules it can decide if a campaign must be suspended, stop or sending warning. It is also used to send warning and offers reports on the current status of active campaigns.</p>
   </li>
 </ul>
 
