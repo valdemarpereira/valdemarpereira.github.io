@@ -42,13 +42,42 @@ sidebar:
       - item: Fitness
         link:
 
+    timeline:
+      - date: Jun 2019
+        company: Kindred
+        role: Senior Software Engineer
+
+      - date: Aug 2018
+        company: BMW | Critical TechWorks
+        role: Team Lead / Senior Software Engineer
+
+      - date: Mar 2018
+        company: Kindred
+        role: Senior Software Engineer
+
+      - date: Dec 2012
+        company: Gamesys
+        role: Team Lead / Senior Software Engineer
+
+      - date: Aug 2009
+        company: ALERT Life Sciences
+        role: Senior Software Engineer
+
+      - date: Aug 2008
+        company: CR2 - Channel Banking Software
+        role: Software Engineer
+
+      - date: Mar 2005
+        company: Qimonda
+        role: Software Engineer
 
 career-profile:
     title: Career Profile
     summary: |
-        A polyglot Senior Software Engineer with over 15 years experience, working  in diversified markets as Automotive, Online Gambling and Health Care. 
+        A polyglot Senior Software Engineer with over 20 years experience, working  in diversified markets as Online Gambling, Automotive and Health Care.
 
-        Currently working for BMW as a Team and Technical Lead, helping to design, implement, test and deploy solutions for autonomous driving car projects. Always with a focus on using the best practices in development and with a DevOps mindset, as adopting Agile Methodologies, Continuous Integration and Deployment, Test Driven Design and Infrastructure as Code. 
+        Currently working for Kindred as a Senior Java Developer, helping to design, implement, test and deploy solutions for Marketing Campaigns.
+        Always with a focus on using the best practices in development and with a Domain-Driven Developemnt mindset, as adopting Agile Methodologies, Continuous Integration and Deployment, and a test-first approach.
 
         Deep and broad understanding in designing and developing robust, scalable and high-performance microservices using core Java, Spring Boot and Cloud Computing Solutions.
 
@@ -62,7 +91,7 @@ education:
         
 experiences:
 
-    - role: Senior Software Enginner - Contract Position
+    - role: Senior Software Enginner - Contract
       time: June 2019 - March 2020
       company: Kindred Group, Online Gambling Industry
       location: London, UK
@@ -70,8 +99,8 @@ experiences:
 
         TBC TBC TBC!!!!
 
-        After previously working for Kindred, I was offered a contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.
-        The role was mostly decoupling a monolith application called Campaign System into microservices and work in new greenfield projects.
+        Contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.
+        The role was mostly decoupling a monolith application ( Campaign System ) into microservices and work in new greenfield projects to support new marketing campaign.
         It included defining the architecture and defining the delivery process to ensure we deliver high-quality software on time.
 
         - Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.
@@ -84,7 +113,8 @@ experiences:
 
       technologies: |
         Java 11, Spring Framework (Boot, Cloud, JDBC, State Machine), 
-        Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design, Message-driven architecture, PubSub+, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven
+        Microservices architectures and patterns, Relational databases and SQL, RESTful Services and design,
+        Message-driven architecture, PubSub+, DDD, Docker, K8s, Unit Testing Frameworks, Git, Maven. Liquibase
 
     - role: Senior Software Enginner
       time: August 2018 - May 2019
@@ -126,7 +156,7 @@ experiences:
       technologies: |
         Java 8, Spring Framework (Boot, IOC, JDBC, Data, Transaction, JPA), Hibernate, Hazelcast,
         Relational databases and SQL, RESTful Services and design, Message-driven architecture, Apache Camel,
-        Unit Testing Frameworks (JUnit, Hamcrest, Mockito, rest-assured, FitNesse), Git, Maven
+        Unit Testing Frameworks (JUnit, Hamcrest, Mockito, rest-assured, FitNesse), Git, Maven, Liquibase
 
     - role: Senior Software Engineer
       time: December 2012 - March 2018
@@ -240,11 +270,14 @@ skills:
     toolset:
         - skillgroup: Languages
           skill:
-            - name: Java & JavaEE
+            - name: Java 11
               level: 100%
 
             - name: SQL
               level: 90%
+
+            - name: .NET C#
+              level: 50%
 
             - name: Python 3
               level: 40%
@@ -257,7 +290,10 @@ skills:
               - name:  Spring Boot 2.0
                 level: 100%
 
-              - name:  JUnit, Mockito, Hamcrest, assertJ
+              - name:  JUnit 5, Mockito, Hamcrest, AssertJ
+                level: 100%
+
+              - name:  Maven
                 level: 100%
 
               - name:  Gatlink, Jmeter
@@ -275,11 +311,11 @@ skills:
               - name: Domain Driven Design
                 level: 100%
 
-              - name: Design Patterns
-                level: 90%
-
               - name: SOLID Design Principles
                 level: 100%
+
+              - name: Design Patterns
+                level: 90%
 
               - name: Agile Methodologies
                 level: 90%
@@ -290,20 +326,16 @@ skills:
               level: 100%
 
             - name: Microservices Architecture
+              level: 90%
+
+            - name: Solace PubSub+ & JMS
               level: 80%
 
             - name: Fault Tolerance 
               level: 70%
 
-            - name: JMS & PubSub+
-              level: 90%
-
-
         - skillgroup: DevOps
           skill:
-            - name: IaC - Terraform
-              level: 50%
-
             - name: Jenkins
               level: 90%
 
@@ -312,6 +344,9 @@ skills:
 
             - name: K8s
               level: 70%
+
+            - name: IaC - Terraform
+              level: 50%
 
             - name: AWS
               level: 50%

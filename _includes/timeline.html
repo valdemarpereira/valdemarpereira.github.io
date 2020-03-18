@@ -1,36 +1,26 @@
-<div class="interests-container container-block">
+{% assign timeline = site.data.data.sidebar.timeline %}
+{% if timeline %}
+
+
+<div class="timeline-container container-block">
   <h2 class="container-block-title">
     Work Timeline
   </h2>
 
   <ul class="timeline">
-    <li class="event" data-date="Jun 2019">
-      <h3 class="company">Kindred</h3>
-      <p class="role">Senior Software Engineer</p>
+
+    {%for work in timeline %}
+    <li class="event" data-date="{{work.date}}">
+      <h3 class="company">{{work.company}}</h3>
+      <p class="role">{{work.role}}</p>
     </li>
-    <li class="event" data-date="Aug 2018">
-      <h3 class="company">BMW | Critical TechWorks</h3>
-      <p class="role">Team Lead / Senior Software Engineer🐢🦂</p>
-    </li>
-    <li class="event" data-date="Mar 2018">
-      <h3 class="company">Kindred</h3>
-      <p class="role">Senior Software Engineer</p>
-    </li>
-    <li class="event" data-date="Dec 2012">
-      <h3 class="company">Gamesys</h3>
-      <p class="role">Team Lead / Senior Software Engineer🐢🦂</p>
-    </li>
-    <li class="event" data-date="Aug 2009">
-      <h3 class="company">ALERT Life Sciences</h3>
-      <p class="role">Senior Software Engineer</p>
-    </li>
-    <li class="event" data-date="Aug 2008">
-      <h3 class="company">CR2 - Channel Banking Software</h3>
-      <p class="role">Software Engineer</p>
-    </li>
-    <li class="event" data-date="Mar 2005">
-      <h3 class="company">Qimonda</h3>
-      <p class="role">Software Engineer</p>
-    </li>
+    {% endfor %}
+
   </ul>
 </div>
+
+
+{% endif %}
+
+
+
