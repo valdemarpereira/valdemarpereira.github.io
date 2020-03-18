@@ -77,7 +77,7 @@ career-profile:
         A polyglot Senior Software Engineer with over 20 years experience, working  in diversified markets as Online Gambling, Automotive and Health Care.
 
         Currently working for Kindred as a Senior Java Developer, helping to design, implement, test and deploy solutions for Marketing Campaigns.
-        Always with a focus on using the best practices in development and with a Domain-Driven Developemnt mindset, as adopting Agile Methodologies, Continuous Integration and Deployment, and a test-first approach.
+        Strong focus on using the best industry practices in development with a Domain-Driven Developemnt mindset, as adopting Agile Methodologies, Continuous Integration and Deployment, and a test-first approach.
 
         Deep and broad understanding in designing and developing robust, scalable and high-performance microservices using core Java, Spring Boot and Cloud Computing Solutions.
 
@@ -97,20 +97,33 @@ experiences:
       location: London, UK
       logo: kindred.jpeg
       details: |
-
-        TBC TBC TBC!!!!
-
         Contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.
-        The role was mostly decoupling a monolith application ( Campaign System ) into microservices and work in new greenfield projects to support new marketing campaign.
-        It included defining the architecture and defining the delivery process to ensure we deliver high-quality software on time.
+
+        My main role responsibilities were mostly decoupling a monolith application (Campaign System) into microservices and work in new greenfield projects to support new marketing campaigns:
 
         - Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.
         - Working closely with the architectures while identifying potential solutions for new business requests. All proposed architecture designs follow the C4 model, Domain-Driven Design
-          and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code. This allows us to build loose coupling, high cohesion and highly scalable microservices.
-
-        - Using Spring Cloud, PubSub+
-
+          and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code.
+          This allows us to build loose coupling, high cohesion and highly scalable microservices.
         - Mentoring and coaching, supporting team members and advising the team on new tools and frameworks. Some examples the use of Spring State Machine, Lombok vs AutoValue, AssertJ
+
+        Main projects description:
+
+        - <b>Campaign Scheduler</b>
+
+          Microservice created during the breakdown of Campaign System to create a more robust and scalable approach o to schedule the Start and End of recurrent campaigns.
+          This is a Message-Driven microservice
+
+        - <b>Campaign Orchestrator</b>
+
+          A microservice created to support multiple microservices created as part of the breakdown. As the name indicates it the orchestrator between several microservices involved during the send out of
+          marketing campaign
+
+        - <b>Operation Monitor Report</b>
+
+          A new microservice used to gather reports of the health and status of a marketing campaign. It gathers data from several communication channels, errors, budget limits, etc,
+          and based on business rules can decide if a campaign must be suspended, stop. It is also used to send warning and offers reports on the current status of active campaigns.
+
 
       technologies: |
         Java 11, Spring Framework (Boot, Cloud, JDBC, State Machine), 
