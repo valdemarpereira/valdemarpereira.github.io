@@ -95,6 +95,7 @@ experiences:
       time: June 2019 - March 2020
       company: Kindred Group, Online Gambling Industry
       location: London, UK
+      logo: kindred.jpeg
       details: |
 
         TBC TBC TBC!!!!
@@ -120,6 +121,7 @@ experiences:
       time: August 2018 - May 2019
       company: BMW Group - Critical Tech Work, Automotive Industry
       location: Porto, PT
+      logo: BMW.png
       details: |
         - Team Lead and part of the autonomous driving car project.
 
@@ -147,6 +149,7 @@ experiences:
       time: March 2018 - July 2018
       company: Kindred Group, Online Gambling Industry
       location: London, UK
+      logo: kindred.jpeg
       details: |
         Inserted into the DCS team - Digital Customer Support, my key responsibilities was to help the team to modernize
         the entire digital communication solution and make improvements on how Kindred communicates with its customers.
@@ -162,6 +165,7 @@ experiences:
       time: December 2012 - March 2018
       company: Gamesys, Online Gambling Industry
       location: London, UK
+      logo: gamesys.png
       details: |
         <b>As a Team Lead:<b/>
         - Effectively managing a team of five Java developers and one QA. Responsible for implementing team goals, individual objectives and proactively supporting the continuous development of team members by providing a clear and constructive feedback and creating opportunities for learning and growth.
@@ -178,6 +182,7 @@ experiences:
       time: August 2009 - October 2012
       company: ALERT Life Sciences, Healthcare Industry
       location: Porto, PT
+      logo: alert.png
       details: |
 
         Working on many of the key projects to ensure the company satisfied their corporate milestones:
@@ -199,6 +204,7 @@ experiences:
       time: August 2008 - July 2009
       company: CR2 - Channel Banking Software, Banking Systems
       location: Dublin, IE
+      logo: cr2.png
       details: |
         - Developed new features, maintained and refactored  the company’s ATM/Kiosk solutions.
         - Architectural design and implementation of a new approach to the Transaction and Recovery platform.
@@ -210,6 +216,7 @@ experiences:
       time: March 2005 - June 2008
       company: Qimonda AG, Semi-conductor Industry
       location: Porto, PT
+      logo: qimonda.png
       details: |
         - Developed  new features, refactored and maintained of a MES applications for Qimonda worldwide.
 

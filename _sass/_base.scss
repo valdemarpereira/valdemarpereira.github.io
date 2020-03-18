@@ -231,13 +231,12 @@ p {
         margin-bottom: 2px;
     }
     .time {
-        position: absolute;
+        position: relative;
         right: 0;
         top: 0;
         color: $text-grey;
     }
     .company, .university {
-        margin-bottom: 10px;
         color: $text-grey;
     }
 
@@ -347,6 +346,19 @@ p {
     font-size: 20px;
 }
 
+.company-avatar {
+    //used for profile image
+    max-width: 55px;
+    max-height: 55px;
+    margin-right: 5px;
+    border: 2px solid #8c8c8c;
+    border-radius: 20%;
+
+    //border: 1px solid #ddd;
+    //border-radius: 4px;
+    //padding: 5px;
+    //width: 50px;
+}
 
 .timeline {
     border-left: 4px solid darken($theme-color, 15%);
@@ -414,4 +426,37 @@ p {
     width: 11px;
     content: "";
     top: 5px;
+}
+
+
+/* DivTable.com */
+.divTable{
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody {
+    display: table-row-group;
 }

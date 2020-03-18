@@ -14,12 +14,38 @@
 
     <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time"><i class="fa fa-calendar"></i> {{ experience.time }} | <i class="fa fa-map-marker"></i>  {{ experience.location }} </div>
-      </div><!--//upper-row-->
+<!--      <div class="upper-row">-->
+<!--        <h3 class="job-title">{{ experience.role }}</h3>-->
+<!--        <div class="time"><i class="fa fa-calendar"></i> {{ experience.time }} | <i class="fa fa-map-marker"></i>  {{ experience.location }} </div>-->
+<!--      </div>&lt;!&ndash;//upper-row&ndash;&gt;-->
 
-      <div class="company">{{ experience.company }}</div>
+<!--      <div class="company">{{ experience.company }}</div>-->
+
+
+
+      <div class="divTable">
+        <div class="divTableBody">
+          <table>
+            <tbody>
+            <tr>
+              <td rowspan="2" align="center"><img class="company-avatar" src="/assets/images/{{experience.logo}}"></td>
+              <td> <div class="upper-row">
+                <h3 class="job-title">{{ experience.role }}</h3>
+                <div class="time"><i class="fa fa-calendar"></i> {{ experience.time }} | <i class="fa fa-map-marker"></i>  {{ experience.location }} </div>
+              </div><!--//upper-row--></td>
+            </tr>
+            <tr>
+              <td>  <div class="company">{{ experience.company }}</div></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
 
     </div><!--//meta-->
 
