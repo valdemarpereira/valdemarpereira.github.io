@@ -303,17 +303,115 @@ p {
 
 
 
+/* Variables */
+/* Base */
+//body {
+//    background: #252827;
+//    font-size: 16px;
+//}
+//p {
+//    font-weight: 300;
+//}
+//a {
+//    color: #6c6d6d;
+//    text-decoration: none;
+//    text-transform: uppercase;
+//    display: block;
+//    letter-spacing: 0.3em;
+//    font-size: 0.6em;
+//    font-weight: 400;
+//    background: #252727;
+//    padding: 0.3rem 1rem;
+//    margin: 1.9rem 0 0 0;
+//    float: right;
+//}
+//
+//strong {
+//    font-weight: 600;
+//}
+//h1 {
+//    font-family: 'Saira', sans-serif;
+//    letter-spacing: 1.5px;
+//    color: white;
+//    font-weight: 400;
+//    font-size: 2.4em;
+//}
+//#timeline-content {
+//    margin-top: 50px;
+//    text-align: center;
+//}
+///* Timeline */
 
-.footer {
-    padding-top: 30px;
-    .copyright {
-        line-height: 1.6;
-        color: $text-color-secondary;
-        font-size: 13px;
+.timeline-title {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.timeline {
+    border-left: 4px solid darken($theme-color, 15%);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 10px auto;
+    position: relative;
+    font-size: 1.03em;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 30%;
+
+    .company {
+        font-weight: 400;
+        font-size: 15px;
+        margin-left: -30px;
+        white-space: nowrap;
     }
-
-    .fa-heart {
-        color: $heart;
+    .role {
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: -30px;
+        white-space: nowrap;
     }
+}
 
+
+.timeline .event {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.timeline .event:before {
+    left: -200px;
+    color: solid darken($theme-color, 15%);
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 700;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+.timeline .event:after {
+    box-shadow: 0 0 0 4px darken($theme-color, 15%);
+    left: -60px;
+    background: #ffffff;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
 }
