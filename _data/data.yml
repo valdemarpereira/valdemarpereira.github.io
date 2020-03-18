@@ -96,15 +96,15 @@ experiences:
       location: London, UK
       logo: kindred.jpeg
       details: |
-        Contract position in the Digital Marketing team to support and build new tools used to help acquire and retain online gambling users.
+        Contract position in the Digital Marketing team to support and build new tools with the purpose of acquiring and retain online gambling users.
 
-        My main role responsibilities were mostly decoupling a monolith application (Campaign System) into microservices and work in new greenfield projects to support new marketing campaigns:
+        My main role responsibilities were mostly decoupling an existing monolith application (Campaign System) into microservices and working in greenfield projects to support new marketing campaigns:
 
         - Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.
         - Working closely with the architectures while identifying potential solutions for new business requests. All proposed architecture designs follow the C4 model, Domain-Driven Design
           and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code.
           This allows us to build loose coupling, high cohesion and highly scalable microservices.
-        - Mentoring and coaching, supporting team members and advising the team on new tools and frameworks. Some examples the use of Spring State Machine, Lombok vs AutoValue, AssertJ
+        - Mentoring, coaching and supporting team members. Advising the team on new tools and frameworks. A few examples of proposal tools such as Spring State Machine, Lombok vs AutoValue or AssertJ.
 
         Main projects description:
 
@@ -116,7 +116,7 @@ experiences:
         - <b>Campaign Orchestrator</b>
 
           A microservice created to support multiple microservices created as part of the breakdown. As the name indicates it the orchestrator between several microservices involved during the send out of
-          marketing campaign
+          marketing campaign.
 
         - <b>Operation Monitor Report</b>
 
