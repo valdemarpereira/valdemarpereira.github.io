@@ -119,7 +119,7 @@ experiences:
 
         - <b>Operation Monitor Report</b>
 
-          A new microservice used to gather reports of the health and status of a marketing campaign. It gathers data from several communication channels, errors, budget limits, etc,
+          Microservice used to gather reports of the health and status of a marketing campaign. It gathers data from several communication channels, errors, budget limits, etc,
           and based on business rules it can decide if a campaign must be suspended, stop or sending warning. It is also used to send warning and offers reports on the current status of active campaigns.
 
 
