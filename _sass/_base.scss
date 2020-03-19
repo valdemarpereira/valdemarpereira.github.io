@@ -255,9 +255,12 @@ p {
         right: 0;
         top: 0;
         color: $text-grey;
+        text-align: left;
     }
     .company, .university {
         color: $text-grey;
+        text-align: left;
+
     }
 
     .project-title {
