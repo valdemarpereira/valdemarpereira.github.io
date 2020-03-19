@@ -365,7 +365,7 @@ p {
     max-width: 55px;
     max-height: 55px;
     margin-right: 5px;
-    border: 2px solid #8c8c8c;
+    border: 2px solid lighten($theme-color, 25%);
     border-radius: 20%;
 
     //border: 1px solid #ddd;
