@@ -134,9 +134,9 @@ experiences:
       details: |
         Team Lead and part of the autonomous driving car project.
 
-        Responsible to design solutions and implement them, together with the team, using Java, Spring Framework and cloud technologies.
+        Responsible for designing solutions and implementing them, together with the team, using Java, Spring Framework and cloud technologies.
 
-        Focus on agility and increased business value, with a strong emphasis in test automation. Responsible to automate end-to-end
+        Focus on agility and increased business value, with a strong emphasis in test automation. Responsible for automating end-to-end
         business processes and software processes, applying Continuous Integration and Delivery, Infrastructure as Code, 
         automating whenever possible to speed up the time to market while avoiding errors.
 
@@ -163,7 +163,7 @@ experiences:
         Inserted into the DCS team - Digital Customer Support, my key responsibilities was to help the team to modernize
         the entire digital communication solution and make improvements on how Kindred communicates with its customers.
         My main focus during my time at Kindred was supporting the whole DCS microservice architecture,
-        refactoring key projects to use spring boot and support the company to be GDPR compliance.
+        refactoring key projects to use spring boot and supporting the company to be GDPR compliant.
 
       technologies: |
         Java 8, Spring Framework (Boot, IOC, JDBC, Data, Transaction, JPA), Hibernate, Hazelcast,
@@ -192,7 +192,7 @@ experiences:
 
         Supporting a new Slots Replay System capable of storing and playback all previous player's’ actions within a slot game. This is a fully asynchronous system based on JMS, Apache Camel and RESTful services.
 
-        Oversee the technologies, tools and techniques used within the team and pushing them to adopt new frameworks and technologies.
+        Oversee the technologies, tools and techniques used within the team and push them to adopt new frameworks and technologies.
 
     - role: Senior Software Enginner
       time: August 2009 - October 2012
@@ -215,7 +215,7 @@ experiences:
 
         <b>CRMServices - High Availability Environment</b>
 
-        Lead Developer in the re-architecting of an application, able to schedule notifications to be send to customers (using several channels such as email, fax, SMS), enabling it to be executed in High Availability Environments.
+        Lead Developer in the re-architecting of an application, able to schedule notifications to be sent to customers (using several channels such as email, fax, SMS), enabling it to be executed in High Availability Environments.
 
       technologies: |
         Java, JMS, Spring Framework, Hibernate, Oracle Advance Queue, Tomcat, Quartz Scheduler Engine, JavaMail API, Jersey,  Tomcat, Android, JSON, SQLite, UML, Hibernate, XML
