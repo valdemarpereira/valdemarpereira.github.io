@@ -88,7 +88,7 @@ education:
         
 experiences:
 
-    - role: Senior Software Enginner - Contract
+    - role: Senior Software Engineer - Contract
       time: June 2019 - March 2020
       company: Kindred Group, Online Gambling Industry
       location: London, UK
@@ -100,7 +100,7 @@ experiences:
 
         - Proposing, documenting and implementing architectural solutions as part of breaking a monolith into microservices and adding new features using a microservices architecture.
         - Working closely with the architectures while identifying potential solutions for new business requests. All proposed architecture designs follow the C4 model, Domain-Driven Design
-          and a Hexagonal architecture (Port and Adaptors). All these proposals were successful signed off and translated into code.
+          and a Hexagonal architecture (Port and Adaptors). All these proposals were successfully signed off and translated into code.
           This allows us to build loose coupling, high cohesion and highly scalable microservices.
         - Mentoring, coaching and supporting team members. Advising the team on new tools and frameworks. A few examples of proposal tools such as Spring State Machine, Lombok vs AutoValue or AssertJ.
 
@@ -113,7 +113,7 @@ experiences:
 
         <b>Campaign Orchestrator</b>
 
-          Orchestrator between several microservices involved during the send out of  marketing campaigns. Based on internal rules, it can decided the flow of a campaign send out.
+          Orchestrator between several microservices involved during the send out of  marketing campaigns. Based on internal rules, it can decide the flow of a campaign send out.
 
         <b>Operation Monitor Report</b>
 
