@@ -40,6 +40,9 @@ sidebar:
 
       - item: Fitness
         link:
+        
+      - item: ESP32 & Arduino
+        link: 
 
     timeline:
       - date: Jun 2019
@@ -312,19 +315,22 @@ skills:
 
         - skillgroup: Frameworks
           skill:
-              - name: Spring Framework
+              - name: Spring Framework (AOP, Cloud, Data, JBDC, Sleuth, ...)
                 level: 100%
 
               - name:  Spring Boot 2.0
                 level: 100%
 
-              - name:  JUnit 5, Mockito, Hamcrest, AssertJ
+              - name:  JUnit 5, Mockito, Hamcrest, AssertJ, REST Assured
                 level: 100%
 
               - name:  Maven
                 level: 100%
 
               - name:  Gatlink, Jmeter
+                level: 50%
+                
+              - name: hibernate
                 level: 50%
 
 
@@ -370,16 +376,14 @@ skills:
             - name: Docker
               level: 70%
 
-            - name: K8s
+            - name: Kubernetes
               level: 70%
 
-            - name: IaC - Terraform
+            - name: Terraform
               level: 50%
 
             - name: AWS
               level: 50%
-
-
 
 footer: >
     "Without data you're just another person with an opinion" - W. Edwards Deming
