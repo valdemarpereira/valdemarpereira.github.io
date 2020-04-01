@@ -315,7 +315,7 @@ skills:
 
         - skillgroup: Frameworks
           skill:
-              - name: Spring Framework (AOP, Cloud, Data, JBDC, Sleuth, ...)
+              - name: Spring Framework (AOP, Cloud, Data, JBDC, Sleuth, Actuator...)
                 level: 100%
 
               - name:  Spring Boot 2.0
@@ -367,7 +367,7 @@ skills:
 
             - name: Fault Tolerance 
               level: 70%
-
+            
         - skillgroup: DevOps
           skill:
             - name: Jenkins
@@ -383,6 +383,23 @@ skills:
               level: 50%
 
             - name: AWS
+              level: 50%
+            
+            - name: Grafana & Prometheus
+              level: 50%
+              
+        - skillgroup: Monotoring and Alert
+          skill:
+            - name: Spring Actuator
+              level: 90%
+
+            - name: Grafana
+              level: 50%
+              
+            - name: Prometheus
+              level: 50%
+              
+            - name: Splunk
               level: 50%
 
 footer: >
